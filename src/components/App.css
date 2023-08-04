@@ -1,0 +1,12 @@
+*{
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.messege{
+    border-color: rgb(32, 32, 32);
+  border-width: 2px 2px 2px 2px;
+  margin: 2px;
+
+}

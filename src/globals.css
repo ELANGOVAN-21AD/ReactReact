@@ -1,0 +1,151 @@
+*{
+    padding: 0px;
+    margin:0px
+}
+
+.divv{
+    display:flex;
+
+}
+.divv>a{
+    display:flex;
+
+}
+.divvv{
+display: flex;
+ justify-content: center;
+ align-items:flex-end;
+}
+
+.divvv>img{
+     margin:10px;
+    }
+
+#progres{
+    width: 100%;
+    background-color: grey;
+
+
+    }
+
+    .leaflet-control-attribution {
+        display: none;
+    }
+#myBar {
+        width: 1%;
+        height: 30px;
+        background-color: green;
+      }
+
+      #gradient{
+        margin-top: 30px;
+        width: 100%;
+        height: 150px;
+        background: rgb(38,30,173);
+        background: linear-gradient(90deg, rgba(38,30,173,1) 0%, rgba(15,15,140,1) 27%, rgba(30,65,255,1) 48%, rgba(4,67,122,1) 76%, rgba(11,173,205,1) 100%);
+      }
+
+      #map { height: 180px; }
+
+
+      .redrec {
+        width: 100px;
+        height: 100px;
+        background: black;
+        position: relative;
+        animation: mymove 2s infinite;
+        
+      }
+      
+      .redrec3 {
+        width: 100px;
+        height: 100px;
+        background: yellow;
+        position: relative;
+        animation: mymove3 1s infinite;
+      }
+      
+      .greenrec {
+        width: 100px;
+        height: 100px;
+        background: yellow;
+        position: relative;
+        animation: mymovee 1s infinite;
+      }
+      
+      .greenrec3 {
+        width: 100px;
+        height: 100px;
+        background: yellow;
+        position: relative;
+        animation: mymovee3 3s infinite;
+      }
+      
+      .divone {
+      display: flex
+      }
+      .divtwo {
+      display: flex;
+      padding:0;
+      }
+      @keyframes mymove {
+        0% { background:black; }
+        25% {  background:yellow;}
+        50% {  background:yellow}
+        75% { background:yellow }
+        100% { background:black;}
+      }
+      
+      
+      @keyframes mymove3 {
+        0% { }
+        25% {  background:black;}
+        50% {  background:yellow}
+        75% { background:yellow }
+        100% { background:yellow;}}
+      
+      
+      @keyframes mymovee3 {
+        0% { top: 0; left: 0; }
+        25% { top: 0px; left: 0; background:yellow;}
+        50% { top: 0px; left: 0px;background:black;}
+        75% { top: 0; left: 0px;background:yellow }
+        100% { top: 0; left: 0; background:yellow}
+      }
+      
+      .divvvv{
+        display:flex;
+        padding:10px;
+      }
+
+      .divvvv>*{
+        padding:10px;
+      }
+
+      @keyframes mymovee {
+        0% { top: 0; left: 0; }
+        25% { top: 0px; left: 0; background:yellow;}
+        50% { top: 0px; left: 0px;background:yellow;}
+        75% { top: 0; left: 0px;background:black }
+        100% { top: 0; left: 0; background:yellow}
+      }
+      
+      .pad{
+padding: 10px;
+      }
+      .dot1{
+       width: 5px;
+        height: 5px;
+        vertical-align: bottom;
+        margin-inline: 10px;
+        border-radius:100%;
+        background: black;
+        position: absolute;
+      }
+      
+      
+      .divv{
+          display: flex;
+          flex-direction: column;
+          align-items: center; 
+      }
